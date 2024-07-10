@@ -66,7 +66,6 @@ export const createSmsThings = ({
         tag: 'sms',
         message: 'Sending sms',
         meta: {
-          name,
           to,
           text: loggableText,
           response: result.loggableResponse,
