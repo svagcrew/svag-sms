@@ -1,6 +1,6 @@
 {
   "name": "svag-sms",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/svagcrew/svag-sms",
   "repository": {
     "type": "git",
@@ -33,6 +33,9 @@
     "types": "svag-ts types",
     "watch": "svag-ts watch"
   },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/lodash": "^4.17.6",
@@ -52,8 +55,5 @@
     "tsc-alias": "^1.8.10",
     "typescript": "^5.5.3"
   },
-  "type": "module",
-  "dependencies": {
-    "lodash": "^4.17.21"
-  }
+  "type": "module"
 }
